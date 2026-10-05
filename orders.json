@@ -1,0 +1,521 @@
+[
+  {
+    "id": "ORD-001",
+    "customerId": "CUS-001",
+    "customerName": "Toko ABC",
+    "items": [
+      {
+        "productId": "PRD-001",
+        "productName": "Roti Tawar",
+        "price": 15000,
+        "quantity": 10,
+        "subtotal": 150000
+      },
+      {
+        "productId": "PRD-002",
+        "productName": "Roti Coklat",
+        "price": 8000,
+        "quantity": 20,
+        "subtotal": 160000
+      }
+    ],
+    "subtotal": 310000,
+    "discount": 0,
+    "total": 310000,
+    "paidAmount": 310000,
+    "remainingAmount": 0,
+    "status": "COMPLETED",
+    "paymentStatus": "PAID",
+    "completedAt": "2026-10-01T14:00:00.000Z",
+    "completedBy": "USR-002",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "ORD-002",
+    "customerId": "CUS-002",
+    "customerName": "Warung Sejahtera",
+    "items": [
+      {
+        "productId": "PRD-003",
+        "productName": "Roti Keju",
+        "price": 10000,
+        "quantity": 15,
+        "subtotal": 150000
+      }
+    ],
+    "subtotal": 150000,
+    "discount": 0,
+    "total": 150000,
+    "paidAmount": 150000,
+    "remainingAmount": 0,
+    "status": "COMPLETED",
+    "paymentStatus": "PAID",
+    "completedAt": "2026-10-01T15:00:00.000Z",
+    "completedBy": "USR-002",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-01T09:00:00.000Z"
+  },
+  {
+    "id": "ORD-003",
+    "customerId": "CUS-003",
+    "customerName": "Minimarket Jaya",
+    "items": [
+      {
+        "productId": "PRD-008",
+        "productName": "Kue Lapis",
+        "price": 5000,
+        "quantity": 30,
+        "subtotal": 150000
+      },
+      {
+        "productId": "PRD-012",
+        "productName": "Donat Gula",
+        "price": 5000,
+        "quantity": 20,
+        "subtotal": 100000
+      }
+    ],
+    "subtotal": 250000,
+    "discount": 10000,
+    "total": 240000,
+    "paidAmount": 240000,
+    "remainingAmount": 0,
+    "status": "COMPLETED",
+    "paymentStatus": "PAID",
+    "completedAt": "2026-10-01T16:00:00.000Z",
+    "completedBy": "USR-001",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "ORD-004",
+    "customerId": "CUS-004",
+    "customerName": "Toko Roti Bahagia",
+    "items": [
+      {
+        "productId": "PRD-016",
+        "productName": "Croissant",
+        "price": 12000,
+        "quantity": 10,
+        "subtotal": 120000
+      }
+    ],
+    "subtotal": 120000,
+    "discount": 0,
+    "total": 120000,
+    "paidAmount": 120000,
+    "remainingAmount": 0,
+    "status": "COMPLETED",
+    "paymentStatus": "PAID",
+    "completedAt": "2026-10-02T10:00:00.000Z",
+    "completedBy": "USR-002",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-01T11:00:00.000Z"
+  },
+  {
+    "id": "ORD-005",
+    "customerId": "CUS-005",
+    "customerName": "Warung Makan Sederhana",
+    "items": [
+      {
+        "productId": "PRD-004",
+        "productName": "Roti Kacang",
+        "price": 7000,
+        "quantity": 25,
+        "subtotal": 175000
+      }
+    ],
+    "subtotal": 175000,
+    "discount": 0,
+    "total": 175000,
+    "paidAmount": 175000,
+    "remainingAmount": 0,
+    "status": "COMPLETED",
+    "paymentStatus": "PAID",
+    "completedAt": "2026-10-02T11:00:00.000Z",
+    "completedBy": "USR-002",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-01T12:00:00.000Z"
+  },
+  {
+    "id": "ORD-006",
+    "customerId": "CUS-001",
+    "customerName": "Toko ABC",
+    "items": [
+      {
+        "productId": "PRD-009",
+        "productName": "Kue Bolu",
+        "price": 25000,
+        "quantity": 5,
+        "subtotal": 125000
+      },
+      {
+        "productId": "PRD-013",
+        "productName": "Donat Coklat",
+        "price": 6000,
+        "quantity": 15,
+        "subtotal": 90000
+      }
+    ],
+    "subtotal": 215000,
+    "discount": 5000,
+    "total": 210000,
+    "paidAmount": 210000,
+    "remainingAmount": 0,
+    "status": "PAID",
+    "paymentStatus": "PAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "ORD-007",
+    "customerId": "CUS-006",
+    "customerName": "Kafe Kopi Nikmat",
+    "items": [
+      {
+        "productId": "PRD-017",
+        "productName": "Danish Pastry",
+        "price": 15000,
+        "quantity": 8,
+        "subtotal": 120000
+      }
+    ],
+    "subtotal": 120000,
+    "discount": 0,
+    "total": 120000,
+    "paidAmount": 120000,
+    "remainingAmount": 0,
+    "status": "PAID",
+    "paymentStatus": "PAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-02T09:00:00.000Z"
+  },
+  {
+    "id": "ORD-008",
+    "customerId": "CUS-007",
+    "customerName": "Supermarket Makmur",
+    "items": [
+      {
+        "productId": "PRD-001",
+        "productName": "Roti Tawar",
+        "price": 15000,
+        "quantity": 20,
+        "subtotal": 300000
+      },
+      {
+        "productId": "PRD-006",
+        "productName": "Roti Gandum",
+        "price": 18000,
+        "quantity": 10,
+        "subtotal": 180000
+      }
+    ],
+    "subtotal": 480000,
+    "discount": 0,
+    "total": 480000,
+    "paidAmount": 480000,
+    "remainingAmount": 0,
+    "status": "PAID",
+    "paymentStatus": "PAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-02T10:30:00.000Z"
+  },
+  {
+    "id": "ORD-009",
+    "customerId": "CUS-008",
+    "customerName": "Kantin Sekolah Maju",
+    "items": [
+      {
+        "productId": "PRD-010",
+        "productName": "Kue Sus",
+        "price": 4000,
+        "quantity": 40,
+        "subtotal": 160000
+      }
+    ],
+    "subtotal": 160000,
+    "discount": 0,
+    "total": 160000,
+    "paidAmount": 160000,
+    "remainingAmount": 0,
+    "status": "PAID",
+    "paymentStatus": "PAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-02T11:00:00.000Z"
+  },
+  {
+    "id": "ORD-010",
+    "customerId": "CUS-002",
+    "customerName": "Warung Sejahtera",
+    "items": [
+      {
+        "productId": "PRD-014",
+        "productName": "Donat Keju",
+        "price": 7000,
+        "quantity": 20,
+        "subtotal": 140000
+      }
+    ],
+    "subtotal": 140000,
+    "discount": 0,
+    "total": 140000,
+    "paidAmount": 140000,
+    "remainingAmount": 0,
+    "status": "PAID",
+    "paymentStatus": "PAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-02T12:00:00.000Z"
+  },
+  {
+    "id": "ORD-011",
+    "customerId": "CUS-003",
+    "customerName": "Minimarket Jaya",
+    "items": [
+      {
+        "productId": "PRD-002",
+        "productName": "Roti Coklat",
+        "price": 8000,
+        "quantity": 15,
+        "subtotal": 120000
+      },
+      {
+        "productId": "PRD-005",
+        "productName": "Roti Srikaya",
+        "price": 8000,
+        "quantity": 10,
+        "subtotal": 80000
+      }
+    ],
+    "subtotal": 200000,
+    "discount": 0,
+    "total": 200000,
+    "paidAmount": 200000,
+    "remainingAmount": 0,
+    "status": "PAID",
+    "paymentStatus": "PAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "ORD-012",
+    "customerId": "CUS-009",
+    "customerName": "Toko Oleh-Oleh Nusantara",
+    "items": [
+      {
+        "productId": "PRD-019",
+        "productName": "Pie Buah",
+        "price": 20000,
+        "quantity": 10,
+        "subtotal": 200000
+      }
+    ],
+    "subtotal": 200000,
+    "discount": 0,
+    "total": 200000,
+    "paidAmount": 100000,
+    "remainingAmount": 100000,
+    "status": "ACCEPTED",
+    "paymentStatus": "PARTIAL",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T08:30:00.000Z"
+  },
+  {
+    "id": "ORD-013",
+    "customerId": "CUS-010",
+    "customerName": "Restoran Padang Bundo",
+    "items": [
+      {
+        "productId": "PRD-001",
+        "productName": "Roti Tawar",
+        "price": 15000,
+        "quantity": 5,
+        "subtotal": 75000
+      },
+      {
+        "productId": "PRD-003",
+        "productName": "Roti Keju",
+        "price": 10000,
+        "quantity": 10,
+        "subtotal": 100000
+      }
+    ],
+    "subtotal": 175000,
+    "discount": 0,
+    "total": 175000,
+    "paidAmount": 50000,
+    "remainingAmount": 125000,
+    "status": "ACCEPTED",
+    "paymentStatus": "PARTIAL",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T09:00:00.000Z"
+  },
+  {
+    "id": "ORD-014",
+    "customerId": "CUS-004",
+    "customerName": "Toko Roti Bahagia",
+    "items": [
+      {
+        "productId": "PRD-012",
+        "productName": "Donat Gula",
+        "price": 5000,
+        "quantity": 25,
+        "subtotal": 125000
+      }
+    ],
+    "subtotal": 125000,
+    "discount": 0,
+    "total": 125000,
+    "paidAmount": 0,
+    "remainingAmount": 125000,
+    "status": "ACCEPTED",
+    "paymentStatus": "UNPAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T09:30:00.000Z"
+  },
+  {
+    "id": "ORD-015",
+    "customerId": "CUS-005",
+    "customerName": "Warung Makan Sederhana",
+    "items": [
+      {
+        "productId": "PRD-008",
+        "productName": "Kue Lapis",
+        "price": 5000,
+        "quantity": 20,
+        "subtotal": 100000
+      },
+      {
+        "productId": "PRD-016",
+        "productName": "Croissant",
+        "price": 12000,
+        "quantity": 5,
+        "subtotal": 60000
+      }
+    ],
+    "subtotal": 160000,
+    "discount": 0,
+    "total": 160000,
+    "paidAmount": 0,
+    "remainingAmount": 160000,
+    "status": "ACCEPTED",
+    "paymentStatus": "UNPAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T10:00:00.000Z"
+  },
+  {
+    "id": "ORD-016",
+    "customerId": "CUS-006",
+    "customerName": "Kafe Kopi Nikmat",
+    "items": [
+      {
+        "productId": "PRD-020",
+        "productName": "Roti Sisir Mentega",
+        "price": 9000,
+        "quantity": 30,
+        "subtotal": 270000
+      }
+    ],
+    "subtotal": 270000,
+    "discount": 0,
+    "total": 270000,
+    "paidAmount": 0,
+    "remainingAmount": 270000,
+    "status": "ACCEPTED",
+    "paymentStatus": "UNPAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T10:30:00.000Z"
+  },
+  {
+    "id": "ORD-017",
+    "customerId": "CUS-001",
+    "customerName": "Toko ABC",
+    "items": [
+      {
+        "productId": "PRD-007",
+        "productName": "Roti Sobek",
+        "price": 12000,
+        "quantity": 50,
+        "subtotal": 600000
+      }
+    ],
+    "subtotal": 600000,
+    "discount": 0,
+    "total": 600000,
+    "paidAmount": 0,
+    "remainingAmount": 600000,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T11:00:00.000Z"
+  },
+  {
+    "id": "ORD-018",
+    "customerId": "CUS-007",
+    "customerName": "Supermarket Makmur",
+    "items": [
+      {
+        "productId": "PRD-015",
+        "productName": "Donat Strawberry",
+        "price": 7000,
+        "quantity": 30,
+        "subtotal": 210000
+      }
+    ],
+    "subtotal": 210000,
+    "discount": 0,
+    "total": 210000,
+    "paidAmount": 0,
+    "remainingAmount": 210000,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T11:30:00.000Z"
+  },
+  {
+    "id": "ORD-019",
+    "customerId": "CUS-008",
+    "customerName": "Kantin Sekolah Maju",
+    "items": [
+      {
+        "productId": "PRD-018",
+        "productName": "Puff Pastry Ayam",
+        "price": 10000,
+        "quantity": 20,
+        "subtotal": 200000
+      }
+    ],
+    "subtotal": 200000,
+    "discount": 0,
+    "total": 200000,
+    "paidAmount": 0,
+    "remainingAmount": 200000,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T12:00:00.000Z"
+  },
+  {
+    "id": "ORD-020",
+    "customerId": "CUS-002",
+    "customerName": "Warung Sejahtera",
+    "items": [
+      {
+        "productId": "PRD-011",
+        "productName": "Kue Cubit",
+        "price": 3000,
+        "quantity": 100,
+        "subtotal": 300000
+      }
+    ],
+    "subtotal": 300000,
+    "discount": 0,
+    "total": 300000,
+    "paidAmount": 0,
+    "remainingAmount": 300000,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "createdBy": "USR-002",
+    "createdAt": "2026-10-03T12:30:00.000Z"
+  }
+]

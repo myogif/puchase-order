@@ -1,0 +1,16 @@
+[
+  { "id": "PAY-001", "orderId": "ORD-001", "amount": 310000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-01T08:05:00.000Z" },
+  { "id": "PAY-002", "orderId": "ORD-002", "amount": 150000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-01T09:05:00.000Z" },
+  { "id": "PAY-003", "orderId": "ORD-003", "amount": 240000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-01T10:05:00.000Z" },
+  { "id": "PAY-004", "orderId": "ORD-004", "amount": 120000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-01T11:05:00.000Z" },
+  { "id": "PAY-005", "orderId": "ORD-005", "amount": 175000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-01T12:05:00.000Z" },
+  { "id": "PAY-006", "orderId": "ORD-006", "amount": 100000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-02T08:05:00.000Z" },
+  { "id": "PAY-007", "orderId": "ORD-006", "amount": 110000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-02T12:00:00.000Z" },
+  { "id": "PAY-008", "orderId": "ORD-007", "amount": 120000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-02T09:05:00.000Z" },
+  { "id": "PAY-009", "orderId": "ORD-008", "amount": 480000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-02T10:35:00.000Z" },
+  { "id": "PAY-010", "orderId": "ORD-009", "amount": 160000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-02T11:05:00.000Z" },
+  { "id": "PAY-011", "orderId": "ORD-010", "amount": 140000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-02T12:05:00.000Z" },
+  { "id": "PAY-012", "orderId": "ORD-011", "amount": 200000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-03T08:05:00.000Z" },
+  { "id": "PAY-013", "orderId": "ORD-012", "amount": 100000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-03T08:35:00.000Z" },
+  { "id": "PAY-014", "orderId": "ORD-013", "amount": 50000, "method": "CASH", "createdBy": "USR-002", "createdAt": "2026-10-03T09:05:00.000Z" }
+]

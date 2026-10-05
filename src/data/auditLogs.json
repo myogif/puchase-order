@@ -1,0 +1,17 @@
+[
+  { "id": "LOG-001", "action": "LOGIN", "userId": "USR-001", "userName": "Pak Manager", "referenceType": null, "referenceId": null, "description": "Login sebagai manager", "createdAt": "2026-10-01T07:00:00.000Z" },
+  { "id": "LOG-002", "action": "LOGIN", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": null, "referenceId": null, "description": "Login sebagai kasir", "createdAt": "2026-10-01T07:30:00.000Z" },
+  { "id": "LOG-003", "action": "CREATE_ORDER", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": "ORDER", "referenceId": "ORD-001", "description": "Membuat order untuk Toko ABC", "createdAt": "2026-10-01T08:00:00.000Z" },
+  { "id": "LOG-004", "action": "CREATE_PAYMENT", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": "PAYMENT", "referenceId": "PAY-001", "description": "Pembayaran penuh Rp310.000 untuk ORD-001", "createdAt": "2026-10-01T08:05:00.000Z" },
+  { "id": "LOG-005", "action": "CREATE_ORDER", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": "ORDER", "referenceId": "ORD-002", "description": "Membuat order untuk Warung Sejahtera", "createdAt": "2026-10-01T09:00:00.000Z" },
+  { "id": "LOG-006", "action": "GATE_COMPLETED", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": "ORDER", "referenceId": "ORD-001", "description": "Konfirmasi barang keluar ORD-001", "createdAt": "2026-10-01T14:00:00.000Z" },
+  { "id": "LOG-007", "action": "STOCK_IN", "userId": "USR-003", "userName": "Siti Admin", "referenceType": "PRODUCT", "referenceId": "PRD-001", "description": "Stok masuk Roti Tawar qty 60", "createdAt": "2026-10-02T07:00:00.000Z" },
+  { "id": "LOG-008", "action": "STOCK_IN", "userId": "USR-003", "userName": "Siti Admin", "referenceType": "PRODUCT", "referenceId": "PRD-002", "description": "Stok masuk Roti Coklat qty 50", "createdAt": "2026-10-02T07:05:00.000Z" },
+  { "id": "LOG-009", "action": "CREATE_ORDER", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": "ORDER", "referenceId": "ORD-006", "description": "Membuat order untuk Toko ABC", "createdAt": "2026-10-02T08:00:00.000Z" },
+  { "id": "LOG-010", "action": "CREATE_PAYMENT", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": "PAYMENT", "referenceId": "PAY-006", "description": "DP Rp100.000 untuk ORD-006", "createdAt": "2026-10-02T08:05:00.000Z" },
+  { "id": "LOG-011", "action": "GATE_COMPLETED", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": "ORDER", "referenceId": "ORD-004", "description": "Konfirmasi barang keluar ORD-004", "createdAt": "2026-10-02T10:00:00.000Z" },
+  { "id": "LOG-012", "action": "LOGIN", "userId": "USR-003", "userName": "Siti Admin", "referenceType": null, "referenceId": null, "description": "Login sebagai admin", "createdAt": "2026-10-03T07:00:00.000Z" },
+  { "id": "LOG-013", "action": "STOCK_IN", "userId": "USR-003", "userName": "Siti Admin", "referenceType": "PRODUCT", "referenceId": "PRD-003", "description": "Stok masuk Roti Keju qty 40", "createdAt": "2026-10-03T07:00:00.000Z" },
+  { "id": "LOG-014", "action": "CREATE_ORDER", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": "ORDER", "referenceId": "ORD-017", "description": "Membuat pre-order Roti Sobek untuk Toko ABC", "createdAt": "2026-10-03T11:00:00.000Z" },
+  { "id": "LOG-015", "action": "CREATE_PAYMENT", "userId": "USR-002", "userName": "Budi Kasir", "referenceType": "PAYMENT", "referenceId": "PAY-012", "description": "Pembayaran penuh Rp200.000 untuk ORD-011", "createdAt": "2026-10-03T08:05:00.000Z" }
+]

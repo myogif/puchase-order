@@ -1,0 +1,12 @@
+[
+  { "id": "CUS-001", "name": "Toko ABC", "phone": "081234567001", "address": "Jl. Merdeka No. 10, Jakarta", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" },
+  { "id": "CUS-002", "name": "Warung Sejahtera", "phone": "081234567002", "address": "Jl. Sudirman No. 25, Jakarta", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" },
+  { "id": "CUS-003", "name": "Minimarket Jaya", "phone": "081234567003", "address": "Jl. Gatot Subroto No. 5, Bandung", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" },
+  { "id": "CUS-004", "name": "Toko Roti Bahagia", "phone": "081234567004", "address": "Jl. Ahmad Yani No. 88, Surabaya", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" },
+  { "id": "CUS-005", "name": "Warung Makan Sederhana", "phone": "081234567005", "address": "Jl. Diponegoro No. 12, Semarang", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" },
+  { "id": "CUS-006", "name": "Kafe Kopi Nikmat", "phone": "081234567006", "address": "Jl. Pahlawan No. 33, Yogyakarta", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" },
+  { "id": "CUS-007", "name": "Supermarket Makmur", "phone": "081234567007", "address": "Jl. Imam Bonjol No. 7, Medan", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" },
+  { "id": "CUS-008", "name": "Kantin Sekolah Maju", "phone": "081234567008", "address": "Jl. Pendidikan No. 1, Malang", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" },
+  { "id": "CUS-009", "name": "Toko Oleh-Oleh Nusantara", "phone": "081234567009", "address": "Jl. Raya Kuta No. 45, Bali", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" },
+  { "id": "CUS-010", "name": "Restoran Padang Bundo", "phone": "081234567010", "address": "Jl. Minangkabau No. 15, Padang", "isActive": true, "createdAt": "2026-09-20T08:00:00.000Z" }
+]
